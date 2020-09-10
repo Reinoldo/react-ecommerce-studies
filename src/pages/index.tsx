@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
+const teste = "te";
 
-
-export default function Home({title = "react avancado"}) {
+export default function Home        ({title = "react avancado"}) {
   return (
     <div className="container">
       <Head>
