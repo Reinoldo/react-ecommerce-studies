@@ -1,8 +1,6 @@
 import Head from 'next/head'
 
-const teste = "te";
-
-export default function Home        ({title = "react avancado"}) {
+export default function Home({ title = 'react avancado' }) {
   return (
     <div className="container">
       <Head>
@@ -10,10 +8,8 @@ export default function Home        ({title = "react avancado"}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <div>
-      {title}
-    </div>
-      
+      <div>{title}</div>
+
       <footer className="footer">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
