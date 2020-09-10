@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-asdfadf
-
 export default function Home({ title = 'react avancado' }) {
   return (
     <div className="container">
