@@ -1,9 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
-    React Avançado
+exports[`<Main /> should render the colours correctly 1`] = `
+.c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  margin-bottom: 2rem;
+  width: 25rem;
+}
+
+.c2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.c3 {
+  margin-top: 3rem;
+  width: min(30rem,100%);
+}
+
+<main
+  class="c0"
+>
+  <img
+    alt="Um atomo em formato de hexagono com o texto React avançado do lado"
+    class="c1"
+    src="img/logo.svg"
+  />
+  <h1
+    class="styles__Title-sc-1cs6c8-2"
+  >
+    React Avancado
   </h1>
+  <h2
+    class="c2"
+  >
+    Bem vindo ao curso de React, NextJS, Typescript
+  </h2>
+  <img
+    alt="um desenvolvedor olhando para 3 monitores com codigo"
+    class="c3"
+    src="img/hero-illustration.svg"
+  />
 </main>
 `
