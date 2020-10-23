@@ -51,12 +51,12 @@ exports[`<Main /> should render the colours correctly 1`] = `
   <h1
     class="styles__Title-sc-1cs6c8-2"
   >
-    React Avancado
+    React avancado
   </h1>
   <h2
     class="c2"
   >
-    Bem vindo ao curso de React, NextJS, Typescript
+    Bem vindo ao curso de react, typescript e next js
   </h2>
   <img
     alt="um desenvolvedor olhando para 3 monitores com codigo"
