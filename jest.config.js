@@ -1,11 +1,10 @@
+// For a detailed explanation regarding each configuration property, visit:
+// https://jestjs.io/docs/en/configuration.html
+
 module.exports = {
   testEnvironment: 'jsdom',
-  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+  testPathIgnorePatterns: ['/node_modules/'],
   collectCoverage: true,
-  collectCoverageFrom: ['src/**/*.ts(x)'],
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
-  moduleNameMapper: {
-    '^styled-components':
-      '<rootDir>/node_modules/styled-components/dist/styled-components.browser.cjs.js'
-  }
+  collectCoverageFrom: ['src/**/*.js'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.js']
 }
