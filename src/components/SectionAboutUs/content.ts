@@ -32,6 +32,17 @@ const content = [
       { slug: 'dribbble', link: 'https://dribbble.com/vmarcosp' },
       { slug: 'github', link: 'https://github.com/vmarcosp' }
     ]
+  },
+  {
+    name: 'Reinoldo Sommer',
+    role: 'Lost',
+    image: '',
+    description: 'Literally lost in the space-time',
+    socialLinks: [
+      { slug: 'twitter', link: 'https://twitter.com/vmaarcosp' },
+      { slug: 'dribbble', link: 'https://dribbble.com/vmarcosp' },
+      { slug: 'github', link: 'https://github.com/vmarcosp' }
+    ]
   }
 ]
 
