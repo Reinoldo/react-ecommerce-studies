@@ -36,8 +36,8 @@ const Index = ({
     <SectionTech {...sectionTech} />
     <SectionConcepts {...sectionConcept} />
     <SectionModules {...sectionModules} />
-    <SectionAgenda {...sectionAgenda} />
-    <PricingBox {...pricingBox} />
+    {/* <SectionAgenda {...sectionAgenda} /> */}
+    {/* <PricingBox {...pricingBox} /> */}
     <SectionAboutUs {...sectionAboutUs} />
     <SectionReviews {...sectionReviews} />
     <SectionFaq {...sectionFaq} />
