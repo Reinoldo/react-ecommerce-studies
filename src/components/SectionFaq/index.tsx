@@ -24,22 +24,8 @@ const SectionFaq = ({ title, question }: SectionFaqProps) => (
         <S.ExtraQuestion>
           <Heading lineBottom>Eu tenho outra dúvida!</Heading>
           <p>
-            Sem problemas! Você pode acessar qualquer uma das{' '}
-            <a
-              href="https://willianjusten.com.br/about"
-              target="_blank"
-              rel="noreferrer"
-            >
-              minhas redes sociais
-            </a>{' '}
-            ou entrar no{' '}
-            <a
-              href="https://willianjusten-cursos.slack.com/join/shared_invite/zt-g20h37hj-GnSb_y7PXCRjS92N9T8LCQ#/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              slack do nosso curso.
-            </a>
+            Sem problemas! Você pode enviar um e-mail para mim neste endereço
+            reinoldo@outlook.com{' '}
           </p>
         </S.ExtraQuestion>
       </Container>
